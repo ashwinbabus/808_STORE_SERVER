@@ -1,0 +1,27 @@
+{
+  "name": "808_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cloudinary": "^1.23.0",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.0",
+    "stripe": "^8.127.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.5.1"
+  }
+}
